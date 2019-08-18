@@ -1,0 +1,16 @@
+{
+  "name": "jjjj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass sass/main.scss style/main.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gorakh nath",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {}
+}

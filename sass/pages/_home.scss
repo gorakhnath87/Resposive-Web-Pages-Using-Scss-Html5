@@ -1,0 +1,27 @@
+.section-about{
+    background-color: $color-grey-light-1;
+    padding: 15rem 0;
+    margin-top:-10vh;
+}
+.section-features{
+    padding: 10rem 0;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-mainHeader-main, 0.87),
+        rgba($color-mainHeader-main-second, 0.87)
+      ),
+      url(../img/learnMore.JPG);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+    transform: skewY(-7deg);
+    & > *{
+        transform: skewY(7deg);
+    }
+    margin-top: -10rem;
+}
+.section-tour{
+    margin-top:-10rem;
+    background-color: $color-grey-light-1;
+    padding: 10rem;
+}
